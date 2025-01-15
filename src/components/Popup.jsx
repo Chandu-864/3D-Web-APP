@@ -49,6 +49,17 @@ const PopupContent = {
             btnText= 'Lets connect!' 
         />
     ),
+    4: (
+        <h1 className='sm:text-xl sm:leading-snug text-center neo-brutalism-blue py-4 px-8 text-white mx-5'>
+            Worked on several projects learning
+            < br />
+            from Youtube and Materials.
+            < br />
+            Click on the above Portfolio link
+            < br />
+            to view my projects.
+        </h1>
+        ),
 }
 
 
