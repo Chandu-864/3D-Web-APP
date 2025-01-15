@@ -1,19 +1,19 @@
 import React from 'react'
-import { Route, BrowserRouter as Router, Routes } from 'react-router-dom'
+import { HashRouter, Route, BrowserRouter as Router, Routes } from 'react-router-dom'
 import Navbar from './components/Navbar'
 import {Home, Fun, Contact} from './pages/index'
 
 const App = () => {
   return (
     <main className='bg-slate-300/20'>
-        <Router basename='/3D-Portfolio'>
+        <HashRouter>
             <Navbar />
             <Routes>
                 <Route path='/' element = {<Home />} />
                 <Route path='/fun' element = {<Fun />} />
                 <Route path='/contact' element = {<Contact />} />
             </Routes>
-        </Router>
+        </HashRouter>
     </main>
   )
 }
