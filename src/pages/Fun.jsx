@@ -51,7 +51,7 @@ const Fun = () => {
   const kakaRotation = handleRotation()
 
   return (
-    <section className="relative flex flex-col max-container items-center h-[100vh]">
+    <section className="relative flex flex-col max-container items-center min-h-screen">
       {/* Header Section */}
       <h1 className="text-center mb-6 bg-green-900 text-cyan-50 p-2 rounded-xl">Kakashi Hatake</h1>
 
@@ -79,7 +79,7 @@ const Fun = () => {
       <div
         className="w-full"
         style={{
-          height: '700px', // Canvas height
+          height: '60vh', // Canvas height
           maxHeight: '80vh', // Responsive height
         }}
       >
