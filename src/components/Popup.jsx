@@ -44,13 +44,6 @@ const PopupContent = {
         ),
     3: (
         <InfoBox 
-            text = "Worked on several projects learning from youtube and materials" 
-            link = 'https://chandu-864.github.io/My-Portfolio/' 
-            btnText= 'Visit my Portfolio' 
-        />
-        ),
-    4: (
-        <InfoBox 
             text = "Interested in collabarating or hiring me" 
             link = '/contact' 
             btnText= 'Lets connect!' 

@@ -97,7 +97,7 @@ const Home = () => {
 
             </Suspense>
         </Canvas>
-        <div className="absolute bottom-2 left-2">
+        <div className="absolute bottom-20 left-20">
             <img
             src={!playMusic ? soundoff : soundon}
             alt='jukebox'
