@@ -111,7 +111,7 @@ const Fun = () => {
           </Suspense>
         </Canvas>
       </div>
-      <div className='absolute bottom-2 left-2'>
+      <div className='absolute bottom-20 left-2'>
             <img
             src={!narMusic ? soundoff : soundon}
             alt='jukebox'
