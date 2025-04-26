@@ -8,7 +8,6 @@ An interactive **3D web application** built using **React** and **Three.js**, de
 - 📦 Supports custom **3D model loading** (GLTF, OBJ, etc.)
 - 🖱️ Interactive controls using **OrbitControls**
 - 📱 **Responsive layout** for all screen sizes
-- 🌙 Optional **dark/light mode** toggle
 - ⚡ Optimized performance for smooth rendering
 
 ## 🛠️ Tech Stack
