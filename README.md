@@ -14,9 +14,9 @@ An interactive **3D web application** built using **React** and **Three.js**, de
 ## 🛠️ Tech Stack
 
 - **Frontend:** React, Three.js, React-Three-Fiber, Drei
-- **Styling:** Tailwind CSS / CSS Modules (your choice)
-- **3D Assets:** GLTF / GLB models
-- **Hosting:** GitHub Pages / Vercel / Netlify
+- **Styling:** Tailwind CSS
+- **3D Assets:** GLTF models from **SketchFab**
+- **Hosting:** GitHub Pages
 
 ## 📦 Installation
 
