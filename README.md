@@ -1,8 +1,27 @@
-# React + Vite
+# 🌐 3D Web App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An interactive **3D web application** built using **React** and **Three.js**, designed to be responsive and engaging across devices. The app showcases 3D models in a web-friendly format, enabling immersive user experiences directly in the browser.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🧱 Built with **React** and **Three.js**
+- 📦 Supports custom **3D model loading** (GLTF, OBJ, etc.)
+- 🖱️ Interactive controls using **OrbitControls**
+- 📱 **Responsive layout** for all screen sizes
+- 🌙 Optional **dark/light mode** toggle
+- ⚡ Optimized performance for smooth rendering
+
+## 🛠️ Tech Stack
+
+- **Frontend:** React, Three.js, React-Three-Fiber, Drei
+- **Styling:** Tailwind CSS / CSS Modules (your choice)
+- **3D Assets:** GLTF / GLB models
+- **Hosting:** GitHub Pages / Vercel / Netlify
+
+## 📦 Installation
+
+```bash
+git clone https://github.com/your-username/3d-web-app.git
+cd 3d-web-app
+npm install
+npm run dev
